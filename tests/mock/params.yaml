@@ -1,0 +1,8 @@
+FIRST:
+  TYPE: "int"
+  MIN: 1
+  MAX: 10
+SECOND:
+  TYPE: "float"
+  MIN: 0.5
+  MAX: 100

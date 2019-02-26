@@ -8,7 +8,7 @@ from os import remove
 class testHyperYAML(unittest.TestCase):
     def setUp(self):
 
-        self.fp = "mock/params.yaml"
+        self.fp = "tests/mock/params.yaml"
         self.out_fp = "out.yaml"
         self.model_builder = ModelBuilerMock()
         self.max_trials = 400

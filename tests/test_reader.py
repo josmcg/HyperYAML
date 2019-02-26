@@ -3,7 +3,7 @@ from hyperyaml.reader import YAMLReader
 
 class TestReader(unittest.TestCase):
     def setUp(self):
-        self.fp = "mock/params.yaml"
+        self.fp = "tests/mock/params.yaml"
 
     def test_init(self):
         reader = YAMLReader.read(self.fp)
